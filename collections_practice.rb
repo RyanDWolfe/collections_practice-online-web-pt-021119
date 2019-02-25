@@ -26,7 +26,7 @@ end
 def find_a(array)
   a = []
   a << array.find_all {|i| i.start_with?("a")}
-  a
+  a.flatten
 end
 
 def sum_array(array)
