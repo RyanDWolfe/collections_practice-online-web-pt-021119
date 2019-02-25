@@ -11,7 +11,7 @@ array.sort_by(&:length)
 end
 
 def swap_elements(array)
-array.swap!(1,2)
+  array[1], array[2] = array[1], array[2]
 end
 
 def reverse_array(array)
