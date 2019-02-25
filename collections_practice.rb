@@ -1,13 +1,13 @@
 def sort_array_asc(array)
-array.sort
+  array.sort
 end
 
 def sort_array_desc(array)
-array.sort.reverse
+  array.sort.reverse
 end
 
 def sort_array_char_count(array)
-array.sort_by(&:length)
+  array.sort_by(&:length)
 end
 
 def swap_elements(array)
@@ -15,7 +15,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-array.reverse
+  array.reverse
 end
 
 def kesha_maker
