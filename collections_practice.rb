@@ -25,7 +25,7 @@ end
 
 def find_a(array)
   a = []
-  a << array.collect {|i| i.start_with?("a")}
+  a << array.find {|i| i.start_with?("a")}
   a
 end
 
